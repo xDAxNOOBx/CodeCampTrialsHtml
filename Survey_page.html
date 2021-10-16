@@ -1,0 +1,132 @@
+<html lang="en">
+<style>
+    body {
+  background: black;
+
+}
+.header {
+  font-size: 45px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  background: white;
+}
+
+.name { 
+color: white;
+font-size: 15px;
+}
+
+
+<!-- Life is fun -->
+
+donate {
+  color: white;
+  font-size: 5px;
+  font-align: center;
+}
+
+</style>
+<head>
+  <!-- Boiler -->
+  <div id="boiler">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="Survey Form" content="Test For Code Camp">
+    <meta name="Ajay Nicolaou" content="SitePoint">
+
+    <meta property="og:title" content="A Basic HTML5 Template">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+    <meta property="og:description" content="A simple HTML5 Template for new projects.">
+    <meta property="og:image" content="image.png">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  </div>
+  <!-- End Boiler -->
+
+</head>
+<h1 id="title">Survey Form</h1>
+
+<body>
+  <h1 class="header"> Survey Form </h1>
+  <p id="description"> A Survey Form About Learning Coding</p>
+
+  <!-- Start Survey Form -->
+  <!-- name survey -->
+  <form id="survey-form">
+    <div class="name">
+      <label for="name" id="name-label" required>
+        Name:
+      </label>
+      <input type="text" required id="name" placeholder="Enter your name">
+      <!-- email -->
+      <label for="email" id="email-label">
+        Email:
+      </label>
+      <input type="email" required id="email" placeholder="Enter your email">
+      <!-- number -->
+      <label for "number" id="number-label">
+        Age:
+        <input type="number" required id="number" placeholder="Enter Your Age" min="0" max="100" ;>
+        <!-- Dropdown -->
+        <label for="Survey">How Satisfied Are You With This Survey:</label>
+
+        <select name="cars" id="dropdown">
+          <option value="happy!">Happy!</option>
+          <option value="alright">It's Alright</option>
+          <option value="meh">Meh</option>
+          <option value="awful">Simply Awful</option>
+        </select>
+        <br>
+        <div name="donationdiv">
+          <p> Donate to the Cause? </p>
+          <input type="radio" id="donationone" name="donation" value="1">
+          <label for="donationone">1$</label>
+          <br>
+          <input type="radio" id="2$" name="donation" value="2">
+          <label for="donationtwo">2$</label>
+          <br>
+          <input type="radio" id="3$" name="donation" value="3">
+          <label for="donationthree">3$</label>
+        </div>
+        <br>
+        Test Checkbox
+        <input type="checkbox" id="test" name="test 1" value="test"> <label for="Test1"> Test </label>
+
+        <input type="checkbox" id="test" name="test 2" value="test 2"> <label for="Test2"> Test 2 </label>
+
+        <input type="checkbox" id="test" name="test 3" value="test 3" <label for="test3"> Test 3
+      </label>
+
+      <input type="checkbox" id="test" name="test 4" value="test 4"> <label for="test 4"> Test 4 </label>
+
+      <input type="checkbox" id="test" name="test 5" value="test 5"> <label for="test 5"> Test 5 </label>
+
+      <input type="checkbox" id="test" name="test 6" value="test 6"> <label for="test 6"> Test 6 </label>
+
+      <input type="checkbox" id="test" name="test 7" value="test 7"> <label for="test">
+        Test 7 </label>
+      <br>
+      <br>
+      <br>
+       <div class="input">
+                        <label for="t">Tips?</label>
+                        <textarea id="t" name="t" placeholder="For Tips On How To Improve"></textarea>
+                    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button id="submit" input type="submit" label="submit"> Submit </button>
+  </form>
+
+</body>
+
+</html>
